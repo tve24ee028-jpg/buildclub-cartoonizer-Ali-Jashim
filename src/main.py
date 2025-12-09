@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 img = cv2.imread("input.jpg") 
 
 if img is None:
-    raise SystemExit("Cannot open 'input.jpg' — put the image in the same folder or change the filename.")
+    print("Error: input.jpg not found in assets/")
+    exit()
+
 
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #converting BGR to RGB 
 
