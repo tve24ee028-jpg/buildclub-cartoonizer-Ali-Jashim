@@ -21,5 +21,5 @@ The output is then displayed
    4. output will be saved in results
 
 
-![Blurred Output](results/Blurred_output.jpg)
+![Blurred Output](results/Blurred_Output.jpg)
 ![Final Posterized Output](results/Final_Output.jpg)
